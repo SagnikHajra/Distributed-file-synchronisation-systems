@@ -32,7 +32,7 @@ Though the code is designed to enable client communicate with any of the server,
 | Server   |  Address  | Listening/Connects to | Working dir | file_exc_server listening on | 
 | -------- | --------- | --------------------- | ----------- | ---------------------------- |
 | ServerA  | localhost |        8001           |   servera   |             5001             | 
-| ServerB  | ''(Blank) |        9001           |   serverb   |             6001             |
+| ServerB  |  (Blank)  |        9001           |   serverb   |             6001             |
 | Client   |    N/A    |     8001/9001         |     N/A     |             N/A              |
  
 ## Code exec steps:
