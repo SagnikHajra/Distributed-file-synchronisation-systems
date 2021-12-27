@@ -3,7 +3,7 @@ Each Server uses two different ports
 * One for exchanging files with parallel servers
 * Another for all other communications like client handling, exchanging messages with other parallel servers etc.
 
-When a file is locked by a client, there won't be any change made to the file even if it is modified/deleted at another server
+When a file is locked by a client, there won't be any change made to the file even if it is modified/deleted at another server.
 However, one has to execute ServerA.py and ServerB.py for servers and client.py for client.
 ## Used Language
 >> Python 3.10
